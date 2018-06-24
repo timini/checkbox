@@ -1,0 +1,24 @@
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.black {
+  color: black;
+}
+
+.yellow {
+  color: #FFD700;
+}
+
+.pink {
+  color: #D5008F;
+}
+
+.green {
+  color: #137752;
+}
+
+.blue {
+  color: #00449E;
+}
