@@ -69,7 +69,7 @@ class App extends Component {
           <section>
             <p>
               The <code>{"<Checkbox/>"}</code> component can be used to render a
-              checkbox with label, additionally there are props to conrtol the
+              checkbox with label, additionally there are props to control the
               size and colour of the checkbox.
             </p>
             <h4>component props</h4>
@@ -79,7 +79,7 @@ class App extends Component {
                   <b>id</b> (required string)
                 </code>{" "}
                 this is the id of the checkbox and is used by the checkbox to
-                call your <code>onClick</code> handler with an identifer.
+                call your <code>onClick</code> handler with an identifier.
               </li>
               <li>
                 <code>
@@ -102,7 +102,7 @@ class App extends Component {
                 <code>
                   <b>label</b> (string)
                 </code>{" "}
-                an optional label foryour checkbox.
+                an optional label for your checkbox.
               </li>
               <li>
                 <code>
@@ -110,7 +110,7 @@ class App extends Component {
                 </code>{" "}
                 a function called when the checkbox is clicked. The checkbox
                 will pass back the ID of your component as the first argument of
-                this function, the value of the checkbox will be pased to your
+                this function, the value of the checkbox will be passed to your
                 onClick as the second argument.
               </li>
             </ul>
@@ -119,7 +119,7 @@ class App extends Component {
               pass it a <code>checked</code> prop which will control whether the
               checkbox is checked or not. You also have to pass an{" "}
               <code>onClick</code> handler which will be called by the checkbox
-              component with the id
+              component with the id and value.
             </p>
           </section>
           <section id="sizes">
@@ -197,8 +197,8 @@ class App extends Component {
           <section id="colours">
             <h2>Colours</h2>
             <p>
-              The <code>colour</code> prop can be set to 'black', 'yellow',
-              'pink', 'green' or 'blue'. Defaults to 'black'.
+              The <code>colour</code> prop can be set to <code>black</code>, <code>yellow</code>,
+              <yellow>pink</yellow>, <code>green</code> or <code>blue</code>. Defaults to <code>black</code>.
             </p>
             <pre>
               {`<Checkbox
