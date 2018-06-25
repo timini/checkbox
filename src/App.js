@@ -197,8 +197,10 @@ class App extends Component {
           <section id="colours">
             <h2>Colours</h2>
             <p>
-              The <code>colour</code> prop can be set to <code>black</code>, <code>yellow</code>,
-              <yellow>pink</yellow>, <code>green</code> or <code>blue</code>. Defaults to <code>black</code>.
+              The <code>colour</code> prop can be set to <code>black</code>,{" "}
+              <code>yellow</code>,
+              <yellow>pink</yellow>, <code>green</code> or <code>blue</code>.
+              Defaults to <code>black</code>.
             </p>
             <pre>
               {`<Checkbox
